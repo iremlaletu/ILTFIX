@@ -18,7 +18,7 @@ git clone https://github.com/iremlaletu/kodluyoruzlikrepo.git
 *For LINUX*
 
 ```
-cd Kodluyoruztheveryfirstrepo
+cd Kodluyoruzilkrepo
 code .
 ```
 
