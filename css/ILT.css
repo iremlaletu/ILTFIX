@@ -1,0 +1,47 @@
+h1 {
+    font-size: 24px;
+    color: #ec8989
+}
+.text-brown {
+    color:brown;
+}
+.text-red {
+    color:red
+}
+.fs-14 {
+    font-size: 16px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+#first-fix {
+    font-size: 14px;
+    color: blueviolet;
+}
+li {
+    font-size: 16px;
+    color:rgb(42, 5, 117)
+}
+/**
+body {
+    background-color: chartreuse;
+    color:rgb(237, 213, 152);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color:firebrick;
+    font-size:32px;
+} 
+li {
+    color:rgb(227, 111, 33);
+    font-size:16px;
+}
+p {
+    color: darkolivegreen;
+    font-size:16px;
+}
+h1 {
+    color: darkblue;
+    font-size: 32px;
+}
+**/
