@@ -1,47 +1,75 @@
-h1 {
-    font-size: 24px;
-    color: #ec8989
+body{
+    background-color: black;
 }
-.text-brown {
-    color:brown;
+img{
+    height: 260px;
+    width: 300px;
+    border-radius: 3px;
+    transition: 2s;
 }
-.text-red {
-    color:red
+img:hover{
+    transform: scale(1.2) rotate(5deg);
 }
-.fs-14 {
-    font-size: 16px;
+.container{
+    display: flex;
+    height: 45vw;
+    justify-content:center;
+    align-items: center;
 }
-.fs-20 {
-    font-size: 20px;
+.section{
+    display: flex;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
 }
-#first-fix {
-    font-size: 14px;
-    color: blueviolet;
+.card{
+    height:260px;
+    margin:30px;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px;
 }
-li {
-    font-size: 16px;
-    color:rgb(42, 5, 117)
+.card:hover{
+    transform: translate(0px, -10px);
 }
-/**
-body {
-    background-color: chartreuse;
-    color:rgb(237, 213, 152);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.intro{
+    height: 160px;
+    width: 300px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    color: darkred;
+    font-size: smaller;
+    transition: 2s;
 }
-h2 {
-    color:firebrick;
-    font-size:32px;
-} 
-li {
-    color:rgb(227, 111, 33);
-    font-size:16px;
+.intro:hover{
+    transform: scale(2);
 }
-p {
-    color: darkolivegreen;
-    font-size:16px;
+h1{
+    margin: 10px;
 }
-h1 {
-    color: darkblue;
-    font-size: 32px;
+.btn{
+    margin: 10px;
+    padding: 10px 20px 5px ;
+    background: linear-gradient(90deg,rgba(45,156,219,.6), rgba(155,81,224,.6));
+    border-radius: 25px;
+    color:azure;
+    text-decoration: none;
+    box-shadow:  2px 5px 7px rgba(0,0,0,0.3);
 }
-**/
+#ffm {
+   margin-bottom: 1em;
+}
+button {
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: azure;
+}
+.contact{
+    color: blue;
+}
+nav{
+    background-color: aqua;
+}
