@@ -1,101 +1,212 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ILTFIX</title>
-    <link rel="stylesheet" href="css/ILT.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ILTREPAIR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Navbar Start-->
-    <nav>
-        <input type="text" class="btn" placeholder="username">
-        <input type="password" class="btn"placeholder="password">
-        <input type="button" class="btn" value="Submit">
-    </nav>
-    <!--Navbar End-->
-    <!--content start-->
-    <!--container start-->
-    <div class="container">
-        <div class="card">
-            <img src="image/phone.png" alt="phone">
-            <div class="intro">
-                <h1>FIX IPHONE</h1>
-                <div class="buttons">
-                    <a href="phone.html"><button class="btn">I CAN FIX IT!</button></a>
-                    <a href=""><button class="btn">FIND A STORE</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="image/mac.png" alt="mac">
-            <div class="intro">
-                <h1>FIX MACBOOK</h1>
-                <div class="buttons">
-                    <a href=""><button class="btn">I CAN FIX IT!</button></a>
-                    <a href=""><button class="btn">FIND A STORE</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="image/watch.png" alt="WATCH">
-            <div class="intro">
-                <h1>FIX WATCH</h1>
-                <div class="buttons">
-                    <a href=""><button class="btn">I CAN FIX IT!</button></a>
-                    <a href=""><button class="btn">FIND A STORE</button></a>
-                </div>
-            </div>
-        </div>
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme='dark'>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ILTFIX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Troubleshooting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tools & Parts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Support Questions</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Stores</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mx-auto" role="search">
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-    <!--Container End-->
-    <!--Section start-->
-    <div class="section">
-            <div class="card"> 
-            <img src="image/ipad.png" alt="IPAD">
-                <div class="intro">
-                    <h1>FIX IPAD</h1>
-                    <div class="buttons">
-                        <a href=""><button class="btn">I CAN FIX IT!</button></a>
-                        <a href=""><button class="btn">FIND A STORE</button></a>
-                    </div>
-                </div>
-            </div>
-        <div class="card">
-            <img src="image/board.jpeg" alt="motherboard">
-            <div class="intro">
-                <h2>FIX MOTHERBOARD</h2>
-                <div id="ffm" class="buttons">
-                    <a href=""><button class="btn">I CAN FIX IT!</button></a>
-                    <a href=""><button class="btn">FIND A STORE</button></a>
-                </div>
+  </nav> 
+  <!--Navbar End-->
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/mac.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MAC</h5>
+              <div class="list-group list-group-flush gap-2">
+                <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+                <a href="#" class="btn btn-outline-secondary">BUY</a>
+                <a href="#" class="btn btn-outline-success">SELL</a>
+                <a href="#" class="btn btn-outline-info">SEND to FIX</a>
+              </div>
             </div>
         </div>
-        <div class="card">
-            <img src="image/console.webp" alt="console">
-            <div class="intro">
-                <h1>GAME CONSOLE</h1>
-                <div class="buttons">
-                    <a href=""><button class="btn">I CAN FIX IT!</button></a>
-                    <a href=""><button class="btn">FIND A STORE</button></a>
-                </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/phone.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IPHONE</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+              <a href="#" class="btn btn-outline-secondary">BUY</a>
+              <a href="#" class="btn btn-outline-success">SELL</a>
+              <a href="#" class="btn btn-outline-info">SEND to FIX</a>
             </div>
+          </div>
         </div>
-        <!--<div class="card">
-            <img src="image/acs.png" alt="acs">
-            <div class="intro">
-                <h1>FIND ACCESSORIES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, commodi!</p>
-            </div>-->
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/ipad.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IPAD</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+              <a href="#" class="btn btn-outline-secondary">BUY</a>
+              <a href="#" class="btn btn-outline-success">SELL</a>
+              <a href="#" class="btn btn-outline-info">SEND to FIX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/watch.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IWATCH</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+              <a href="#" class="btn btn-outline-secondary">BUY</a>
+              <a href="#" class="btn btn-outline-success">SELL</a>
+              <a href="#" class="btn btn-outline-info">SEND to FIX</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--Section End-->
-    <!--content end-->
-    <footer>
-    <p style="color:firebrick; font-size:smaller;">More ways to fix: Find an ILT store or other fixing shop near you Or call X<p>
-    <p>Copyright © 2023 ILTFIX</p>
+    <div class="row mt-5">
+      <div class="col-sm-3">
+        <div class="card" style="width: 16rem;">
+          <img src="image/mboard.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MOTHERBOARD</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+              <a href="#" class="btn btn-outline-secondary">BUY</a>
+              <a href="#" class="btn btn-outline-success">SELL</a>
+              <a href="#" class="btn btn-outline-info">SEND to FIX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/console.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CONSOLE</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">FIX & LEARN</a>
+              <a href="#" class="btn btn-outline-secondary">BUY</a>
+              <a href="#" class="btn btn-outline-success">SELL</a>
+              <a href="#" class="btn btn-outline-info">SEND to FIX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 15rem;">
+          <img src="image/acs.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FIND ACCESSORIES</h5>
+            <div class="list-group list-group-flush gap-2">
+              <a href="#" class="btn btn-outline-primary">IPHONE</a>
+              <a href="#" class="btn btn-outline-secondary">IPAD</a>
+              <a href="#" class="btn btn-outline-success">MAC</a>
+              <a href="#" class="btn btn-outline-info">MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer Start-->
+  <div class="bg-dark text-light">
+    <footer class="container py-5 mt-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+          <small class="d-block mb-3 text-body-secondary">© 2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Articles</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Delivery & Returns</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Offers & Deals</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Sell, Buy & Trade</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Company</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy & Terms</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Refund Policy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Warranty Policy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
-    <br>
-    <a href="contact.html">
-        Contact Us
+  </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
