@@ -5,13 +5,9 @@
     <title>Trouble shooting</title>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/6dd24d2e89.js" crossorigin="anonymous"></script>
-    <!-- extra fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
+
     <!-- styles -->
-    <link rel="stylesheet" href="sytle.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     
@@ -19,15 +15,16 @@
         <i style="color: crimson; font-size: x-large; margin: 15px;"  class="fa-solid fa-house"></i>
     </a>
 
-    <button class="toogle">
-        <i class="fa-solid fa-sun"></i>
-        <i class="fa-solid fa-moon"></i>
-    </button>
-
+        <!-- <i class="fa-solid fa-sun"></i> -->
+      <div class="theme-toggle">
+        <i class="fa-solid fa-moon" id="moonMode"></i>
+        <i class="fa-solid fa-sun" style="display:none;" id="sunMode" ></i>
+      </div>
+        
       <section class="questions">
         <!-- title -->
         <div class="title">
-          <h2>general questions</h2>
+          <h2>Frequently Asked Questions</h2>
         </div>
         <!-- questions -->
         <div class="section-center">
@@ -35,7 +32,7 @@
           <article class="question">
             <!-- question title -->
             <div class="question-title">
-              <p>do you accept all major credit cards?</p>
+              <p>Do The Repairs Come With A Warranty?</p>
               <button type="button" class="question-btn">
                 <span class="plus-icon">
                   <i class="far fa-plus-square"></i>
@@ -48,9 +45,9 @@
             <!-- question text -->
             <div class="question-text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                dolore illo dolores quia nemo doloribus quaerat, magni numquam
-                repellat reprehenderit.
+                All repairs done in store, or through ILT Tech or Mail In repair services are backed by our 6 months warranty. 
+                Our warranty protects against Screen/LCD and any other repaired or replaced parts that malfunction, or do not work as intended or designed. 
+                It does not protect against any of the following: Accidental or purposeful drops; for example breaking/cracking LCD or Digitizer glass. Tampering with internal hardware. Damage resulting from attempted customer repair. Unlocked or jail broken devices. New damages unrelated to the original repair. Or Water damage.
               </p>
             </div>
           </article>
@@ -59,7 +56,7 @@
           <article class="question">
             <!-- question title -->
             <div class="question-title">
-              <p>do you suppport local farmers?</p>
+              <p>What type of part are going to be used in my phone and where do they come from?</p>
               <button type="button" class="question-btn">
                 <span class="plus-icon">
                   <i class="far fa-plus-square"></i>
@@ -72,9 +69,11 @@
             <!-- question text -->
             <div class="question-text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                dolore illo dolores quia nemo doloribus quaerat, magni numquam
-                repellat reprehenderit.
+                The parts used in your repairs typically come from various sources:
+                OEM (Original Equipment Manufacturer) Parts: Sourced directly from the phone manufacturer, ensuring high quality and compatibility. 
+                Aftermarket Parts: Third-party alternatives to OEM parts, usually cheaper but varying in quality.
+                Refurbished or Used Parts: Salvaged from recycled or damaged phones, offering a more affordable option.
+                Generic or Generic-Compatible Parts: Generic components claiming compatibility, but quality may vary.
               </p>
             </div>
           </article>
@@ -83,7 +82,7 @@
           <article class="question">
             <!-- question title -->
             <div class="question-title">
-              <p>do you use organic ingredients?</p>
+              <p>What happens if you find other problems with my device or cause more damage to my phone during the repair?</p>
               <button type="button" class="question-btn">
                 <span class="plus-icon">
                   <i class="far fa-plus-square"></i>
@@ -96,9 +95,8 @@
             <!-- question text -->
             <div class="question-text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                dolore illo dolores quia nemo doloribus quaerat, magni numquam
-                repellat reprehenderit.
+                If we discover additional issues or inadvertently cause further damage during the repair process,
+                we take full responsibility for resolving the issue promptly and professionally at no extra cost to you.
               </p>
             </div>
           </article>
@@ -109,7 +107,7 @@
 
  
     <!-- javascript -->
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 
   </body>
 </html>
